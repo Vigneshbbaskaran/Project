@@ -44,6 +44,6 @@
        <ul><li> Read data from LM35 sensor and RTC display content in 16x2 LCD display, Simultaneously sends data to the cloud and store values in EEPROM</li></ul>
        <li>3) IoT smart weather project V3 (With Wifi and if WiFi connection disconnected then data stored in EEPROM)</li>
        <ul><li> Read data from LM35 sensor and RTC display content in 16x2 LCD display, Simultaneously sends data to the cloud </li>
-       <li> In case the data transmit fails then turned ON RED LED and then store data in EEPROM</li></ul>
-       <li> Display "ERROR" message in 16x2 LCD</li>
+       <li> In case the data transmit fails then turned ON RED LED and then store data in EEPROM</li>
+       <li> Display "ERROR" message in 16x2 LCD</li></ul>
  </ul>
