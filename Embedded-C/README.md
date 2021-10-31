@@ -3,15 +3,29 @@
 ## Aim:  
 - To understand STM32F01RBT6 ARM cortex M4 Microcontroller and serial communication protocols (UART and I2C) 
 
+## Hardware information:
+<ul>
+       <li> STM32F01RBT6 - Microcontroller</li>
+       <li> LM3502  - Temperature Sensor</li>
+       <li> DS1307  - Real Time Clock</li>
+       <li> AT24C08 - eeprom</li>
+       <li> ESP8266 - WiFi</li>
+</ul>
 
-## Basic WORKING:
+## Software information:
+<ul>
+       <li> keil uvision 5</li>
+       <li> STLINK V2 Debbuger</li>
+</ul>
+
+## Basic Working:
 <p>  
        <ul> - Initialization part<br>  
         - infinite Loop:<br>  
-              <ul>        <li>     ADC_converstion(every 1 sec)<br>  </li>
-                         <li>  Get data from RTC and print in display(every 1 sec)<br>  </li>
+              <ul>        <li>     ADC_converstion (every 1 sec) <br>  </li>
+                         <li>  Get data from RTC and print in display (every 1 sec)<br>  </li>
                          <li>  Send data to cloud (every 4-5 sec)<br>   </li>
-                         <li>  Store and read from EEPROM(every 1 sec)<br> </li>
+                         <li>  Store and read from EEPROM (every 1 sec)<br> </li>
         </ul></ul>
         <ul>- Switch<br>                    
                       <ul><li> SW1 pressed: write the RTC clock<br>  </li>
@@ -19,11 +33,7 @@
         </ul></ul>
   </p>  
 
-
-
-
-
-This Project done in 3-different versions
+## This Project done in 3-different versions
  1) IoT smart weather project V1 (Without i2c)
  2) IoT smart weather project V2 (With WiFi)
  3) IoT smart weather project V3 (With Wifi and if WiFi connection disconnected then data stored in EEPROM)
