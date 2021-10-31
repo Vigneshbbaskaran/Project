@@ -1,18 +1,23 @@
-IoT smart weather project:  
-Aim:  
-- To understand STM32F01RBT6 ARM cortex M4 Microcontroller and understanding of serial communication protocols (UART and I2C) 
+# **IoT smart weather project:**
+
+## Aim:  
+- To understand STM32F01RBT6 ARM cortex M4 Microcontroller and serial communication protocols (UART and I2C) 
 
 
-WORKING:  
-        1) Initialization part  
-        2) infinite Loop:  
-                           ADC_converstion(every 1 sec)  
-                           Get data from RTC and print in display(every 1 sec)  
-                           Send data to cloud (every 4-5 sec)   
-                           Store and read from EEPROM(every 1 sec)     
-        Switch                    
-                           SW1 pressed: write the RTC clock  
-                           SW2 pressed: EEPROM value displayed  
+## Basic WORKING:
+<p>  
+       <ul> - Initialization part<br>  
+        - infinite Loop:<br>  
+              <ul>        <li>     ADC_converstion(every 1 sec)<br>  </li>
+                         <li>  Get data from RTC and print in display(every 1 sec)<br>  </li>
+                         <li>  Send data to cloud (every 4-5 sec)<br>   </li>
+                         <li>  Store and read from EEPROM(every 1 sec)<br> </li>
+        </ul></ul>
+        <ul>- Switch<br>                    
+                      <ul><li> SW1 pressed: write the RTC clock<br>  </li>
+                          <li> SW2 pressed: EEPROM value displayed   </li>
+        </ul></ul>
+  </p>  
 
 
 
