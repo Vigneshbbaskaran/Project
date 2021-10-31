@@ -29,8 +29,8 @@
                          <li>  Store and read from EEPROM (every 1 sec)<br> </li>
         </ul></ul>
         <ul>- Switch<br>                    
-                      <ul><li> SW1 pressed: write the RTC clock<br>  </li>
-                          <li> SW2 pressed: EEPROM value displayed   </li>
+                      <ul><li> SW1 pressed: write the RTC date<br>  </li>
+                          <li> SW2 pressed: EEPROM data displayed   </li>
         </ul></ul>
   </p>  
 
