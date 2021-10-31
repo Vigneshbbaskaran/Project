@@ -10,6 +10,7 @@
        <li> DS1307  - Real Time Clock</li>
        <li> AT24C08 - eeprom</li>
        <li> ESP8266 - WiFi</li>
+       <li> 16X2 LCD Display</li>
 </ul>
 
 ## Software information:
@@ -34,6 +35,15 @@
   </p>  
 
 ## This Project done in 3-different versions
- 1) IoT smart weather project V1 (Without i2c)
- 2) IoT smart weather project V2 (With WiFi)
- 3) IoT smart weather project V3 (With Wifi and if WiFi connection disconnected then data stored in EEPROM)
+ <ul>  
+       <li>1) IoT smart weather project V1 (Without i2c)</li>
+       <ul>
+           <li> Read data from LM35 sensor and display in 16x2 LCD display, Simultaneously sends data to the cloud</li>
+       </ul>
+       <li>2) IoT smart weather project V2 (With WiFi)</li>
+       <ul><li> Read data from LM35 sensor and RTC display content in 16x2 LCD display, Simultaneously sends data to the cloud and store values in EEPROM</li></ul>
+       <li>3) IoT smart weather project V3 (With Wifi and if WiFi connection disconnected then data stored in EEPROM)</li>
+       <ul><li> Read data from LM35 sensor and RTC display content in 16x2 LCD display, Simultaneously sends data to the cloud </li>
+       <li> In case the data transmit fails then turned ON RED LED and then store data in EEPROM</li></ul>
+       <li> Display "ERROR" message in 16x2 LCD</li>
+ </ul>
